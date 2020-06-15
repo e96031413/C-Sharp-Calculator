@@ -4,7 +4,7 @@ A Simple Calculator Develop with C#, Visual Studio
 ### 處理路徑錯誤問題
 今天在學校把程式寫完之後，可能是不小心哪裡設定錯誤，造成程式碼資料夾路徑跑掉，經過測試後發現是以下這個檔案裡面的內容意外被更動到
 
-請注意第21~26行的程式碼路徑是否有異常的地方，以下程式碼已經正常了
+請注意程式碼路徑是否有異常的地方，以下程式碼已經正常了
 
 WindowsFormsApp1.csproj
 
@@ -18,12 +18,12 @@ WindowsFormsApp1.csproj
 .
 .
 <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Form1.cs">                         //注意
+      <SubType>Form</SubType>                            //注意
+    </Compile>                                           //注意
+    <Compile Include="Form1.Designer.cs">                //注意
+      <DependentUpon>Form1.cs</DependentUpon>            //注意
+    </Compile>                                           //注意
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
