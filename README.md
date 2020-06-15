@@ -6,7 +6,7 @@ A Simple Calculator Develop with C#, Visual Studio
 
 請注意程式碼路徑是否有異常的地方，以下程式碼已經正常了
 
-WindowsFormsApp1.csproj
+[WindowsFormsApp1.csproj](https://github.com/e96031413/C-Sharp-Calculator/blob/master/C-Sharp-Calculator/WindowsFormsApp1/WindowsFormsApp1/WindowsFormsApp1.csproj)
 
 檢查程式碼路徑
 ```
